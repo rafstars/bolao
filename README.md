@@ -1,6 +1,6 @@
 # Code with GitHub Codespaces and Visual Studio Code
 
-_Develop your project with a pre-configured development environment using Codespaces!_
+_Develop your project with a pre-configured development environment using Codespaces!_ 
 
 ## Welcome
 

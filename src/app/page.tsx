@@ -34,7 +34,7 @@ export default function HomePage() {
             <span className="text-yellow-400">EloGroup</span>
           </h1>
           <p className="text-sm text-blue-200 font-medium opacity-80">
-            Palpites encerram em 13/06 às 15h
+            Palpites encerram em 13/06 às 15h BRT
           </p>
         </div>
 
