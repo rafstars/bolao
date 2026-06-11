@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #003366;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Esconder barra de rolagem nas abas */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Estilização da barra de rolagem para os grupos */
+.scrollbar-elo::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-elo::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.scrollbar-elo::-webkit-scrollbar-thumb {
+  background: #003366; /* Azul EloGroup */
+  border-radius: 10px;
+}
+.scrollbar-elo::-webkit-scrollbar-thumb:hover {
+  background: #004A99;
+}
